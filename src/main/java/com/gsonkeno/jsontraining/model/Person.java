@@ -5,8 +5,10 @@ public class Person {
     String name;
     String emailAddress;
 
-    /**使用jackson返回对象到前端时，一定要有get方法存在，否则
-     * No converter found for return value of type: class com.gsonkeno.jsontraining.model.Person**/
+    /**
+     * 使用jackson返回对象到前端时，一定要有get方法存在，否则
+     * No converter found for return value of type: class com.gsonkeno.jsontraining.model.Person
+     **/
     public String getBirthAddress() {
         return birthAddress;
     }

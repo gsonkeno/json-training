@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class JsonController {
 
     @GetMapping(value = "/person")
-    public Person getPerson(){
+    public Person getPerson() {
         return new Person.PersonBuilder().withBirthAddress("上海-浦东")
                 .withEmailAddress("hugdiad@163.com").withName("刘畅").build();
     }
